@@ -32,7 +32,7 @@
     EMSCRIPTEN_ROOT = os.path.expanduser(os.getenv('EMSCRIPTEN', '/home/tobi/ma/emscripten')) # directory
 
     LLVM_ROOT = os.path.expanduser(os.getenv('LLVM', '/home/tobi/ma/build/bin')) # directory
-    BINARYEN_ROOT = os.path.expanduser(os.getenv('BINARYEN', '/home/tobi/ma/binaryen/binaryen')) # directory
+    BINARYEN_ROOT = os.path.expanduser(os.getenv('BINARYEN', '/home/tobi/ma/binaryen')) # directory
 
     # Location of the node binary to use for running the JS parts of the compiler.
     # This engine must exist, or nothing can be compiled.
