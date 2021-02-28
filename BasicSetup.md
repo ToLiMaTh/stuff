@@ -9,7 +9,7 @@
 * Cloning LLVM: `git clone https://github.com/ToLiMaTh/llvm-project.git`
 * Setting up build folder: `mkdir build` and `cd build`
 * Building using *Ninja*:
-  * Setup: `cmake ../llvm/llvm-project/llvm -DCMAKE_BUILD_TYPE=Debug -DLLVM_ENABLE_PROJECTS='lld;clang' -DLLVM_TARGETS_TO_BUILD="host;WebAssembly" -DBUILD_SHARED_LIBS=ON -DLLVM_INCLUDE_EXAMPLES=OFF -DLLVM_INCLUDE_TESTS=OFF -GNinja`
+  * Setup: `cmake ../llvm-project/llvm -DCMAKE_BUILD_TYPE=Debug -DLLVM_ENABLE_PROJECTS='lld;clang' -DLLVM_TARGETS_TO_BUILD="host;WebAssembly" -DBUILD_SHARED_LIBS=ON -DLLVM_INCLUDE_EXAMPLES=OFF -DLLVM_INCLUDE_TESTS=OFF -GNinja`
   * Building: `cmake --build .`
 * Recompiling compiler after changes to a MachineFunctionPass(es): `ninja llc`
 
